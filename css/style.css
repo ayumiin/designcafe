@@ -169,3 +169,130 @@ color:#162b2e;
     margin-right: 170px;
     
 }
+
+#contents3{
+    background-color: #eee;
+    color:#162b2e;
+    text-align: center;
+    font-size:20px;
+    margin: 0;
+    padding-top: 45px;
+    height: 1000px;
+}
+
+.item4{
+    border: 0.5px solid #000;
+    width: 350px; 
+    padding: 5px 5px 80px 5px;
+}
+
+.item4 h1{
+    font-size: 25px;
+    margin: 0;
+}
+
+.item5{
+    border: 0.5px solid #000;
+    width: 350px; 
+    padding: 5px 5px 80px 5px;
+}
+
+.item5 h1{
+    font-size: 25px;
+    margin: 0;
+}
+
+.item6{
+    border: 0.5px solid #000;
+    width: 350px; 
+    padding: 5px 5px 80px 5px;
+}
+
+.item6 h1{
+    font-size: 25px;
+    margin: 0;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item7{
+    border: 0.5px solid #000;
+    width: 350px; 
+    padding: 5px 5px 80px 5px;
+}
+
+.item7 h1{
+    font-size: 25px;
+    margin: 0;
+}
+
+.item8{
+    border: 0.5px solid #000;
+    width: 350px; 
+    padding: 5px 5px 80px 5px;
+    margin-left: 100px;
+}
+
+.item8 h1{
+    font-size: 25px;
+    margin: 0;
+}
+
+.container3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#contents4{
+    margin-top: 0px;
+    padding-top: 40px;
+}
+
+#contents4 h1{
+    text-align: center;
+}
+
+.Hours{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.Hours h1{
+    font-size: 20px;
+    margin: 0;
+    margin-right: 60px;
+}
+
+.Address{
+    display: flex;
+}
+
+.Address h1{
+    font-size: 20px;
+    margin: 0;
+    margin-right: 40px;
+}
+
+.map{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    border: solid 1px #eee;
+    width: 1000px;
+    margin-left: 200px;
+    border-radius: 10px;
+    
+}
+
+.box{
+    margin: 50px ;
+    margin-right: 100px;
+}
+
+#contents4 iframe{
+    border-radius: 10px 0px 0px 10px;
+}
