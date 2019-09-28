@@ -6,6 +6,7 @@
 
 ・cd OneDrive/デスクトップ/designcafe/
 
+
 ・git add .
 
 ・git commit -m "変更した内容"
