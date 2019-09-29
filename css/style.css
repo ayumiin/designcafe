@@ -6,16 +6,29 @@ ul{
     list-style: none;
     display: flex;
     justify-content:flex-end;
-    margin-left: 950px;
+    margin-left: 850px;
     position: absolute;
     font-family: 'Roboto', sans-serif;
+
 }
 
+#navi a{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 0.5s;
+}
 
+#navi a:hover{
+    border-bottom: 2px solid #ffffff;
+}
 
 li{
     color: #fff;
-    margin: 10px;
+    margin: 15px;
+    margin-top: 20px;
+    
 }
 
 #slide{
@@ -250,6 +263,7 @@ color:#162b2e;
 #contents4{
     margin-top: 0px;
     padding-top: 40px;
+    height: 670px;
 }
 
 #contents4 h1{
@@ -261,6 +275,9 @@ color:#162b2e;
     margin-bottom: 15px;
 }
 
+.Hours p1{
+}
+
 .Hours h1{
     font-size: 20px;
     margin: 0;
@@ -269,6 +286,7 @@ color:#162b2e;
 
 .Address{
     display: flex;
+    width: 400px;
 }
 
 .Address h1{
@@ -279,6 +297,7 @@ color:#162b2e;
 
 .map{
     margin-top: 70px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: center;
     border: solid 1px #eee;
@@ -295,4 +314,46 @@ color:#162b2e;
 
 #contents4 iframe{
     border-radius: 10px 0px 0px 10px;
+}
+
+
+
+.fadein {
+    opacity : 0;
+    transform : translate(0, 50px);
+    transition:all 0.5s;
+}
+.fadein.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+}
+
+#contents4 a{
+    margin-left: 650px;
+    margin-top: 50px;
+    font-size: 16px;
+    padding: 8px 32px;
+    background: #182b2e;
+    color: #ffffff;
+    border: 1px solid #182b2e;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#contents4 a:hover{
+    background: #ffffff;
+    color:#182b2e;
+}
+
+footer{
+    background-color: #182b2e;
+    color: #ffffff;
+    text-align: center;
+    font-size:8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding: 25px;
 }
