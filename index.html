@@ -3,14 +3,20 @@
 <head>   
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+ 
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>cafe site</title>
 </head>
 <body>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/index.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
      
     <div class ="main-visual">
         <div id="slide">
@@ -26,19 +32,33 @@
             <h>Design Cafe</h>
             <p>Welcome to Designer</p>
         </div>
-         <div id="navi">
-            <nav>
-                <ul>
-                    <li><a href="./index.html" style="text-decoration: none" color="#ffffff">HOME</a></li>
-                    <li><a href="#contents5" style="text-decoration: none">ABOUT</a></li>
-                    <li><a href="#contents2" style="text-decoration: none">STORY</a></li>
-                     <li><a href="#contents3" style="text-decoration: none">MENU</a></li>
-                    <li><a href="#contents4" style="text-decoration: none">ACCESS</a></li>
-                </ul>
-            </nav>
-        </div>
+        
+       
         </div>
         
+         <header class="header">
+            <nav class="global-nav">
+                <ul class="global-nav__list">
+                    <li class="global-nav__item"><a href="./index.html" style="text-decoration: none" color="#ffffff">HOME</a></li>
+                    <li class="global-nav__item"><a href="#contents5" style="text-decoration: none">ABOUT</a></li>
+                    <li class="global-nav__item"><a href="#contents2" style="text-decoration: none">STORY</a></li>
+                     <li class="global-nav__item"><a href="#contents3" style="text-decoration: none">MENU</a></li>
+                    <li class="global-nav__item"><a href="#contents4" style="text-decoration: none">ACCESS</a></li>
+                </ul>
+            </nav>
+             <div class="hamburger" id="js-hamburger">
+    <span class="hamburger__line hamburger__line--1"></span>
+    <span class="hamburger__line hamburger__line--2"></span>
+    <span class="hamburger__line hamburger__line--3"></span>
+  </div>
+             
+    <div class="black-bg" id="js-black-bg"></div>          
+             </header>
+    
+    
+    
+    
+    
         <div class ="content" id ="contents1">
              <div class="fadein">
         <h1 class="top-title" id ="contents5">ABOUT</h1>
@@ -46,8 +66,10 @@
             
             <div class="fadein">
         <div class="container" >
+                        
+<div class="slider">
             <div class="item1">
-             <img src="img/space.jpg" alt="" width="300">
+             <img src="img/space.jpg" alt="" width="250">
                 <h1>Creative Space</h1>
                 <p>people who stay quietly alone,<br>
                 those who enjoy spending time<br>
@@ -56,18 +78,20 @@
                 
                 </p>
             </div>
+          
             <div class="item2">
-             <img src="img/coffee.jpg" alt="" width="300">
+             <img src="img/coffee.jpg" alt="" width="250">
                 <h1>Special Blend</h1>
                 <p>Authentic roasting coffee green<br>
                     beans grown only with natural<br>
                     blessings Tipica, which is the<br>
                     Arabica species, in the shop.
                 </p>
-            
+ 
             </div>
+
             <div class="item3">
-            <img src="img/designer.jpg" alt="" width="300">
+            <img src="img/designer.jpg" alt="" width="250">
                 <h1>Designer Community</h1>
                 <p>Authentic roasting coffee green<br>
                     beans grown only with natural<br>
@@ -77,18 +101,22 @@
             </div>
             </div>
             </div>
-        </div> 
+            </div>
+            </div>
+        
     
     <div class="content" id="contents2">
         <img src="img/mind2.jpg" alt="" width="50%">
         <div class="right-box">
              <div class="fadein">
-        <h>DISCOVER<br>OUR STORY</h>
-        <p>Dining cafe where you can spend your time while<br> drinking coffee and wine in delicious meals in a<br> comfortable space like lush green cozy "Oasis no<br> Yoriki".
-<br>
+        <h1>DISCOVER OUR STORY</h1>
+                 <div id="font">
+                     <p1>Dining cafe where you can spend your time<br> while drinking coffee and wine in delicious meals in a<br> comfortable space like lush green cozy "Oasis no<br>Yoriki".</p1>
+<br><p2>
 We are offering a new lifestyle space that fuses<br>quietly alone, people who enjoy spending time<br>with friends, dining cafes that can be relaxed at<br>their own pace and state-of-the-art Internet <br>environment.
         
-        </p>
+        </p2>
+                     </div>
             </div>
         </div>
         </div>
@@ -100,6 +128,8 @@ We are offering a new lifestyle space that fuses<br>quietly alone, people who en
            
         <div class="fadein">
      <div class="container2">
+         
+<div class="slider">
          <div class="item4">
          <img src="img/menu1.jpg" alt="" width="280">
             <h1>cafemocha</h1>
@@ -113,10 +143,13 @@ We are offering a new lifestyle space that fuses<br>quietly alone, people who en
              <h1>mocha and cake</h1>
          </div>
         </div>
+</div>
         </div>
             
         <div class="fadein">
     <div class="container3">
+        
+<div class="slider">
         <div class="item7">
         <img src="img/menu4.jpg" alt="" width="280">
             <h1>churos</h1>
@@ -126,6 +159,7 @@ We are offering a new lifestyle space that fuses<br>quietly alone, people who en
             <h1>cookie</h1>
         </div>
         </div>
+            </div>
         </div>
     </div>
     
@@ -161,6 +195,7 @@ We are offering a new lifestyle space that fuses<br>quietly alone, people who en
     <footer>
     <h1>Copyright &copy; Ryujin. All Rights Reserved. </h1> 
     </footer>
-    
+     
+    <script src="js/index2.js"></script>
 </body>
 </html>

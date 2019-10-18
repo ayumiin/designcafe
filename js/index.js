@@ -62,3 +62,8 @@ jQuery(window).scroll();
 
 
 <!-- スムーズスクロール部分の記述 -->
+
+
+ $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
